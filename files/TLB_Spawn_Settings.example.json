@@ -1,0 +1,98 @@
+{
+    "Version": 1,
+    "Enabled": 1,
+    "SpawnMode": 0,
+    "SelectionTimeoutSeconds": 300,
+    "InvulnerableWhileSelecting": 1,
+    "AllowRandomButton": 1,
+    "MinDistanceToPlayers": 80.0,
+    "AdminIDs": [
+        "76561198000000000"
+    ],
+    "UseVanillaSpawnPoints": 1,
+    "VanillaSection": "fresh",
+    "VanillaGroupMaxSpread": 1500.0,
+    "VanillaDefaults": {
+        "CooldownSeconds": 600,
+        "DeathBlockRadius": 500.0,
+        "DeathBlockSeconds": 1800
+    },
+    "VanillaOverrides": [
+        {
+            "CooldownSeconds": 900,
+            "DeathBlockRadius": 500.0,
+            "DeathBlockSeconds": 1800,
+            "GroupName": "WestCherno",
+            "DisplayName": "Chernogorsk",
+            "Enabled": 1
+        },
+        {
+            "CooldownSeconds": 600,
+            "DeathBlockRadius": 500.0,
+            "DeathBlockSeconds": 1800,
+            "GroupName": "Orlovets",
+            "DisplayName": "",
+            "Enabled": 0
+        }
+    ],
+    "CustomSpawns": [
+        {
+            "CooldownSeconds": 1800,
+            "DeathBlockRadius": 300.0,
+            "DeathBlockSeconds": 900,
+            "Name": "Elektro Military",
+            "Enabled": 1,
+            "ScatterRadius": 0.0,
+            "Positions": [
+                [
+                    10343.5,
+                    8.2,
+                    2287.1
+                ]
+            ]
+        },
+        {
+            "CooldownSeconds": 1200,
+            "DeathBlockRadius": 500.0,
+            "DeathBlockSeconds": 1800,
+            "Name": "Green Mountain",
+            "Enabled": 1,
+            "ScatterRadius": 40.0,
+            "Positions": [
+                [
+                    3700.0,
+                    0.0,
+                    5990.0
+                ],
+                [
+                    3640.0,
+                    0.0,
+                    6070.0
+                ]
+            ]
+        }
+    ],
+    "SpawnZone": {
+        "OverrideDefaultSpawn": 1,
+        "Radius": 15.0,
+        "Positions": [
+            [
+                6550.0,
+                0.0,
+                2460.0
+            ]
+        ]
+    },
+    "SleepingBags": {
+        "Enabled": 1,
+        "DisplayName": "Sleeping Bag",
+        "MaxPerPlayer": 1,
+        "CooldownSeconds": 1800,
+        "MaxUses": 0,
+        "DestroyWhenUsedUp": 1,
+        "DeathBlockRadius": 150.0,
+        "DeathBlockSeconds": 900,
+        "OnlyOwnerCanPack": 0,
+        "MinDistanceToSpawnZone": 200.0
+    }
+}

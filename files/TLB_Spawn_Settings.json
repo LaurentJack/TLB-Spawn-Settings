@@ -1,0 +1,37 @@
+{
+    "Version": 1,
+    "Enabled": 1,
+    "SpawnMode": 0,
+    "SelectionTimeoutSeconds": 300,
+    "InvulnerableWhileSelecting": 1,
+    "AllowRandomButton": 1,
+    "MinDistanceToPlayers": 80.0,
+    "AdminIDs": [],
+    "UseVanillaSpawnPoints": 1,
+    "VanillaSection": "fresh",
+    "VanillaGroupMaxSpread": 1500.0,
+    "VanillaDefaults": {
+        "CooldownSeconds": 600,
+        "DeathBlockRadius": 500.0,
+        "DeathBlockSeconds": 1800
+    },
+    "VanillaOverrides": [],
+    "CustomSpawns": [],
+    "SpawnZone": {
+        "OverrideDefaultSpawn": 0,
+        "Radius": 10.0,
+        "Positions": []
+    },
+    "SleepingBags": {
+        "Enabled": 1,
+        "DisplayName": "Sleeping Bag",
+        "MaxPerPlayer": 1,
+        "CooldownSeconds": 1800,
+        "MaxUses": 0,
+        "DestroyWhenUsedUp": 1,
+        "DeathBlockRadius": 150.0,
+        "DeathBlockSeconds": 900,
+        "OnlyOwnerCanPack": 0,
+        "MinDistanceToSpawnZone": 200.0
+    }
+}
